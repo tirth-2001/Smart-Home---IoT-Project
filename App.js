@@ -85,7 +85,7 @@ export default function TextToSpeech() {
     const allShortcuts = [
       {
         type: 'iot.voice.bulb',
-        title: 'Open Light Settings',
+        title: 'Operate Light',
         shortTitle: 'On/Off',
         subtitle: 'Smart Light',
         iconName: 'iot_bulb',
