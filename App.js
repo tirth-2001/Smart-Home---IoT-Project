@@ -18,11 +18,13 @@ import Shortcuts from 'react-native-actions-shortcuts';
 
 import Icon from 'react-native-vector-icons/Ionicons';
 
+import codePush from 'react-native-code-push';
+
 // import * as googleTTS from 'google-tts-api';
 
 import Tts from 'react-native-tts';
 
-export default function TextToSpeech() {
+const App = () => {
   const [started, setStarted] = useState('');
   const [end, setEnd] = useState('');
 
@@ -315,7 +317,9 @@ export default function TextToSpeech() {
       </View>
     </SafeAreaView>
   );
-}
+};
+
+export default codePush(App);
 
 const styles = StyleSheet.create({
   button: {

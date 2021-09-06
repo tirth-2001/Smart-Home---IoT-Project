@@ -12,11 +12,15 @@
   "dependencies": {
     "@google-cloud/speech": "^4.8.0",
     "@react-native-community/voice": "^1.1.9",
+    "appcenter": "4.2.0",
+    "appcenter-analytics": "4.2.0",
+    "appcenter-crashes": "4.2.0",
     "google-tts-api": "^2.0.2",
     "node-record-lpcm16": "^1.0.1",
     "react": "17.0.2",
     "react-native": "0.65.1",
     "react-native-actions-shortcuts": "^1.0.1",
+    "react-native-code-push": "^7.0.2",
     "react-native-tts": "^4.1.0",
     "react-native-vector-icons": "^8.1.0"
   },
